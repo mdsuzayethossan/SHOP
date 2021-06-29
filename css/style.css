@@ -58,7 +58,7 @@ span {
     border-bottom: 1px solid var(--allhover);
 }
 .bg {
-    background-color: #eef2ff;
+    background-color: var(--commoncolor);
 }
 .navbar-brand {
     font-size: 30px;
@@ -319,9 +319,6 @@ padding: 0;
     border-color: var(--allhover);
     color: var(--commoncolor);
 
-}
-.banner_3 {
-	padding-right: 377px !important;
 }
 /* banner slick part goes here */
 #banner .slick-dots li button {

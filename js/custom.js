@@ -6,7 +6,7 @@ $(function (){
     cssEase: 'linear',
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2500,
     arrows: false,
     dots: true,
@@ -46,6 +46,7 @@ $('.feedback_details_main').slick({
     arrows:true,
     prevArrow:'.fup',
     nextArrow:'.fdown',
+    autoplay:true
   });
   // scrolling
 
