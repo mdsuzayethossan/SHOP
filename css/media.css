@@ -2,10 +2,41 @@
     .navbar {
         background-color: white;
         position: absolute;
+        margin-top: 7px;
     }
     .navbar-toggler:focus {
         box-shadow: none;
     }
+    .banner_item {
+        padding: 100px 0;
+    }
+
+    /*banner part goes here*/
+    .banner_content_main {
+        display: block;
+    }
+    .banner_item::before {
+        position: absolute;
+        content: '';
+        top: 190px;
+        left: 35%;
+        background-image: url(../Images/dot.png);
+        width: 10%;
+        height: 10%;
+        z-index: 999;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .banner_text {
+        padding: 0;
+    }
+ 
+     /*category part goes here*/
+     .category_button button {
+        margin: 8px 8px;
+    
+    }
+
     .shop_sumbmenu_main {
         background-color: #f1f1f1;
         margin: 0 17px;
@@ -97,5 +128,26 @@
 
 
 /*Responsive mega menu end here*/
+
+
+/*Responsive blog goes here*/
+.blog_item {
+	margin: 30px 0;
+}
+
+
+
+/*Responsive new goes here*/
+#new {
+	padding: 70px 0;
+	
+}
+/*Responsive freedback goes here*/
+.feedback_main {
+    display: flex;
+}
+
+
+/*Blog mega menu end here*/
 
 }
