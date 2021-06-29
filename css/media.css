@@ -1,0 +1,101 @@
+@media (max-width:575.98px){
+    .navbar {
+        background-color: white;
+        position: absolute;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .shop_sumbmenu_main {
+        background-color: #f1f1f1;
+        margin: 0 17px;
+        border-bottom: 1.5px solid var(--allhover);
+        padding-bottom: 10px;
+        padding: 0 1.25rem;
+    }
+   
+    .accordion-collapse.pages_accordion {
+        margin: 0 17px!important;
+    }
+    .accordion-body {
+        padding: 0 1.5rem;
+        background-color: #f6f6f6;
+        border-bottom: 1.5px solid var(--allhover);
+        padding-bottom: 8px;
+    }
+    .accordion-button {
+        padding: 1rem 0;
+    }
+    .accordion-item {
+        border: none;
+        background-color:transparent;
+        
+    }
+    .accordion-button:not(.collapsed) {
+        box-shadow: none;
+    }
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-left: auto;
+        content: "\f068"; 
+        background-image: none;
+        font: normal normal normal 14px/1 FontAwesome;  
+        background-repeat: no-repeat;
+        background-size: 1.25rem;
+        transition: transform .2s ease-in-out;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: none;
+        
+    }
+    
+    /*Responsive mega menu start here*/
+
+.accordion-button {
+	background-color: transparent;
+	
+	/* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease; */
+}
+.accordion-button:not(.collapsed) {
+	color: var(--allcolor);
+    background-color: transparent;
+	
+}
+.accordion-button:focus {
+	border-color: transparent;
+	box-shadow: none;
+}
+.accordion-body a {
+    display: block;
+    font-weight: 300;
+    color: var(--allcolor);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--allcolor);
+}
+.accordion-body a:last-child {
+    border: none;
+}
+.forborderbottom {
+   border-bottom: 1px solid var(--allcolor);
+}
+ .accordion-item:last-of-type .accordion-button.collapsed h3{
+    font-weight: 600!important;
+    font-size: 16px;
+    color: var(--allcolor);
+    
+} 
+.h3, h3 {
+    font-weight: 600!important;
+    font-size: 16px;
+    color: var(--allcolor);
+}
+
+
+/*Responsive mega menu end here*/
+
+}

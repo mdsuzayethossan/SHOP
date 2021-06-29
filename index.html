@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container forsubmenu">
+          <a class="navbar-brand" href="#"><img src="Images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="navbar-example">
+              <li class="nav-item">
+                <a class="nav-link" href="#banner">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#category">category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item d-md-none">
+                <div class="accordion accordion-flush" id="shopmegamenu">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="shopmegamenuone">
+                      <button class="accordion-button collapsed nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#shopmegamenu_1" aria-expanded="false" aria-controls="shopmegamenu_1">
+                        Shop
+                      </button>
+                    </h2>
+                    <div id="shopmegamenu_1" class="accordion-collapse collapse" aria-labelledby="shopmegamenuone" data-bs-parent="#shopmegamenu">
+                      <div class="accordion accordion-flush shop_sumbmenu_main" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed forborderbottom" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              <h3>Shop Types</h3>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <a href="#">Right Sidebar</a>
+                              <a href="#">Left Sidebar</a>
+                              <a href="#">Shop Slider</a>
+                              <a href="#">Info Bellow</a>
+                              <a href="#">Info Bellow Centerd</a>
+                              <a href="#">Single Category</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed forborderbottom" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              <h3>Shop Layouts</h3>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <a href="#">Three Columns Grid</a>
+                              <a href="#">Four Columns Grid</a>
+                              <a href="#">Four Columns Wide</a>
+                              <a href="#">Five Columns Wide</a>
+                              <a href="#">Six Columns Wide</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed forborderbottom" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              <h3>Product Types</h3>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <a href="#">Standard Product</a>
+                              <a href="#">Variable Product</a>
+                              <a href="#">External Product</a>
+                              <a href="#">Grouped Product</a>
+                              <a href="#"> Downloadable Product</a>
+                              <a href="#">Virtual Product</a>
+                              <a href="#"> On Sale Product</a>
+                              <a href="#">Sold Out Product</a>
+                              <a href="#">New Product</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="shoppages">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shoppages_collapse" aria-expanded="false" aria-controls="shoppages_collapse">
+                              <h3>Shop Pages</h3>
+                            </button>
+                          </h2>
+                          <div id="shoppages_collapse" class="accordion-collapse collapse" aria-labelledby="shoppages" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body shoppages_collapse">
+                              <a href="#">My Accountg</a>
+                              <a href="#"> Cart</a>
+                              <a href="#">Checkout</a>
+                              <a href="#">Wishlist</a>
+                              <a href="#">Order Trackin</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="#">Shop<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="shop_submenu">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="shop_submenu_item shop_submenu_before">
+                        <h3>Shop Types</h3>
+                        <a href="#">Right Sidebar</a>
+                        <a href="#">Left Sidebar</a>
+                        <a href="#">Shop Slider</a>
+                        <a href="#">Info Bellow</a>
+                        <a href="#">Info Bellow Centerd</a>
+                        <a href="#">Single Category</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="shop_submenu_item shop_submenu_before">
+                        <h3>Shop Layouts</h3>
+                        <a href="#">Three Columns Grid</a>
+                        <a href="#">Four Columns Grid</a>
+                        <a href="#">Four Columns Wide</a>
+                        <a href="#">Five Columns Wide</a>
+                        <a href="#">Six Columns Wide</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="shop_submenu_item shop_submenu_before">
+                        <h3>Product Types</h3>
+                        <a href="#">Standard Product</a>
+                        <a href="#">Variable Product</a>
+                        <a href="#">External Product</a>
+                        <a href="#">Grouped Product</a>
+                        <a href="#"> Downloadable Product</a>
+                        <a href="#">Virtual Product</a>
+                        <a href="#"> On Sale Product</a>
+                        <a href="#">Sold Out Product</a>
+                        <a href="#">New Product</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="shop_submenu_item">
+                        <h3>Shop Pages</h3>
+                        <a href="#">My Accountg</a>
+                        <a href="#"> Cart</a>
+                        <a href="#">Checkout</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Order Trackin</a>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item d-md-none">
+                <div class="accordion accordion-flush" id="PagesaccordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="Pagesflush-headingOne">
+                      <button class="accordion-button collapsed nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#Pagesflush-collapseOne" aria-expanded="false" aria-controls="Pagesflush-collapseOne">
+                        Pages
+                      </button>
+                    </h2>
+                    <div id="Pagesflush-collapseOne" class="accordion-collapse collapse pages_accordion" aria-labelledby="Pagesflush-headingOne" data-bs-parent="#PagesaccordionFlushExample">
+                      <div class="accordion-body">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Pricing Plans</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">FAQ Page</a>
+                        <a href="#">Coming Soon</a>
+                        <a href="#">Error Page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="#">Pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="pages_submenu">
+                     <div class="row">
+                      <div class="col-lg-12">
+                        <div class="pages_submenu_item">
+                          <h3>Shop Types</h3>
+                          <a href="#">Right Sidebar</a>
+                          <a href="#">Left Sidebar</a>
+                          <a href="#">Shop Slider</a>
+                          <a href="#">Info Bellow</a>
+                          <a href="#">Info Bellow Centerd</a>
+                          <a href="#">Single Category</a>
+                        </div>
+                       </div>
+                     </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            
+             
+            </ul>
+            <ul class="navbar-nav">
+                <li class="menu_right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li class="menu_right"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li class="menu_right"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!--banner part goes here-->
+      <section id="banner">
+        <div class="banner_item" style="background: url(Images/banner.jpg);">
+          <div class="container">
+         <div class="row">
+          <div class=" col-lg-12 banner_content_main">
+            <div class="banner_text">
+              <div class="banner_shape"></div>
+              <h1>Online<br>Shopping</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <a href="#">Shop Now</a>
+            </div>
+            <div class="banner_content text-end">
+              <img src="Images/b-con.png" alt="b-con">
+            </div>
+          </div>
+         </div>
+          </div>
+
+        </div>
+        <div class="banner_item" style="background: url(Images/banner.jpg);">
+          <div class="container">
+         <div class="row">
+          <div class=" col-lg-12 banner_content_main">
+            <div class="banner_text">
+              <h1>Online<br>Shopping</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <a href="#">Shop Now</a>
+            </div>
+            <div class="banner_content text-end">
+              <img src="Images/b-3.png" alt="b-3">
+            </div>
+          </div>
+         </div>
+          </div>
+
+        </div>
+        <div class="banner_item" style="background: url(Images/banner.jpg);">
+          <div class="container">
+         <div class="row">
+          <div class=" col-lg-12 banner_content_main">
+            <div class="banner_text">
+              <h1>Online<br>Shopping</h1>
+              <p class="banner_3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <a href="#">Shop Now</a>
+            </div>
+            <div class="banner_content text-end">
+              <img src="Images/b-4.png" alt="b-4">
+            </div>
+          </div>
+         </div>
+          </div>
+        </div>
+
+      </section>
+       <!--banner part end here-->
+
+
+        <!--category part goes here-->
+        <section id="category">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 m-auto ">
+                <div class="category_title text-center">
+                  <h2>Shop Category</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="category_main">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="category_button">
+                  <button class="button_1" data-filter="all">All</button>
+                  <button data-filter=".Phone">Phone</button>
+                  <button data-filter=".Laptop">Laptop</button>
+                  <button data-filter=".Shoes">Shoes</button>
+                  <button data-filter=".Smart_Watch">Smart Watch</button>
+                  </div>
+                </div>
+              </div>
+              <div class="row category_mix_main">
+                <div class="col-lg-3 mix Phone">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_1.jpg" alt="c_1" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Shoes">
+                   <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_10.jpg" alt="c_10" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                     <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Laptop">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_11.jpg" alt="c_11" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Smart_Watch">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_12.jpg" alt="c_12" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Phone">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_3.jpg" alt="c_3" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Shoes">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_4.jpg" alt="c_4" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Laptop">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_8.jpg" alt="c_8" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Shoes">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_6.jpg" alt="c_6" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Smart_Watch">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_7.jpg" alt="c_7" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Phone">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_5.jpg" alt="c_5" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Laptop">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_9.jpg" alt="c_9" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mix Smart_Watch">
+                  <div class="category_item">
+                    <div class="category_item_img">
+                      <img src="Images/c_2.jpg" alt="c_2" class="img-fluid w-100">
+                    </div>
+                    <div class="category_item_text">
+                      <div class="category_item_text_1">
+                        <h4>shopping Bag</h4>
+                        <span>$50.00</span>
+                      </div>
+                      <div class="category_item_text_2">
+                        <h4>sport</h4>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+
+                    </div>
+                    <div class="category_item_card">
+                      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ADD TO CART</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<!--category part end here-->
+<!--new part goes here-->
+
+<section id="new">
+  <div class="row">
+    <div class="col-lg-6 m-auto ">
+      <div class="category_title text-center">
+        <h2>New Item</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+   <div class="new_main">
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-1.png" alt="nn-1" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-2.png" alt="nn-2" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-3.png" alt="nn-3" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-5.png" alt="nn-5" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-4.png" alt="nn-4" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-6.png" alt="nn-6" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-7.png" alt="nn-7" class="img-fluid">
+      </div>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="new_item">
+        <img src="Images/nn-8.png" alt="nn-8" class="img-fluid">
+      </div>
+
+    </div>
+   </div>
+  </div>
+</section>
+<!--new part end here-->
+
+
+
+<!--blog part goes here-->
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 m-auto ">
+        <div class="category_title text-center">
+          <h2>Our Blog</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row blog_slider_main">
+      <div class="col-lg-4">
+        <div class="blog_item">
+          <img src="Images/b_2.jpg" alt="b_2" class="img-fluid w-100">
+          <div class="blog_item_overly">
+            <div class="social-icon">
+              <div class="social-1"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item_text">
+          <span>7 JUN 2021</span>
+          <h5>Comfort and simplicity are two keys that I follow when it comes to fashion.</h5>
+          <a href="#">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_item">
+          <img src="Images/b_1.jpg" alt="b_1" class="img-fluid w-100">
+          <div class="blog_item_overly">
+            <div class="social-icon">
+              <div class="social-1"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item_text">
+          <span>7 jan 2021</span>
+          <h5>Believe that life is worth living and your belief will help create the fact.</h5>
+          <a href="#">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_item">
+          <img src="Images/b_3.jpg" alt="b_3" class="img-fluid w-100">
+          <div class="blog_item_overly">
+            <div class="social-icon">
+              <div class="social-1"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+              <div class="social-1"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item_text">
+          <span>7 FEB 2021</span>
+          <h5>Age and size are only numbers. It’s the attitude you bring to clothes.</h5>
+          <a href="#">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--blog part end here-->
+
+
+<!--feedback part goes here-->
+
+
+<section id="feedback">
+  <div class="container">
+    <div class="row feedback_slider">
+      <div class="col-lg-3 m-auto text-center">
+       <div class="feedback_head">
+        <i class="fa fa-chevron-up fup"></i>
+        <i class="fa fa-chevron-down fdown" ></i>
+        <div class="feedback_main">
+          <div class="feedback_item">
+            <img src="Images/f_1.jpg" alt="f_1" class="img-fluid">
+          </div>
+          <div class="feedback_item">
+            <img src="Images/f_2.jpg" alt="f_2" class="img-fluid">
+          </div>
+          <div class="feedback_item">
+            <img src="Images/f_3.jpg" alt="f_2" class="img-fluid">
+          </div>
+          <div class="feedback_item">
+            <img src="Images/f_3.jpg" alt="f_2" class="img-fluid">
+          </div>
+         </div>
+       </div>
+      </div>
+      <div class="col-lg-8 align-self-center">
+        <div class="feedback_details_main">
+          <div class="feedback_details_item">
+            
+            
+           <h6>John Doe</h6>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h5>Chairman/CEO</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum necessitatibus soluta distinctio accusamus, voluptate nostrum labore maiores. Ducimus vero dolor nemo, saepe eaque repellat repudiandae labore quos cum exercitationem perferendis animi rerum hic ipsa corporis qui omnis ab cupiditate harum? Nesciunt, sed? Doloribus, quisquam similique id quis libero cupiditate?</p>
+          </div>
+          <div class="feedback_details_item">
+           <h6>Samuel</h6>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h5>Chairman/CEO</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum necessitatibus soluta distinctio accusamus, voluptate nostrum labore maiores. Ducimus vero dolor nemo, saepe eaque repellat repudiandae labore quos cum exercitationem perferendis animi rerum hic ipsa corporis qui omnis ab cupiditate harum? Nesciunt, sed? Doloribus, quisquam similique id quis libero cupiditate?</p>
+          </div>
+          <div class="feedback_details_item">
+           <h6>Michael Jeff</h6>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h5>Chairman/CEO</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum necessitatibus soluta distinctio accusamus, voluptate nostrum labore maiores. Ducimus vero dolor nemo, saepe eaque repellat repudiandae labore quos cum exercitationem perferendis animi rerum hic ipsa corporis qui omnis ab cupiditate harum? Nesciunt, sed? Doloribus, quisquam similique id quis libero cupiditate?</p>
+          </div>
+          <div class="feedback_details_item">
+           <h6>George</h6>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h5>Chairman/CEO</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum necessitatibus soluta distinctio accusamus, voluptate nostrum labore maiores. Ducimus vero dolor nemo, saepe eaque repellat repudiandae labore quos cum exercitationem perferendis animi rerum hic ipsa corporis qui omnis ab cupiditate harum? Nesciunt, sed? Doloribus, quisquam similique id quis libero cupiditate?</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--feedback part end here-->
+
+<!--footer part goes here-->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="footer_item">
+          <h4>About Us</h4>
+          <a href="#">Our History</a>
+          <a href="#">Sourcing & Ingredients</a>
+          <a href="#">Packaging philosophy</a>
+          <a href="#">Customer reviews</a>
+          <a href="#">The Newest List</a>
+          
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer_item">
+          <h4>Services</h4>
+          <a href="#">Carears</a>
+          <a href="#">Istore finder</a>
+          <a href="#">Account</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer_item">
+          <h4>archive</h4>
+          <a href="#">Our History</a>
+          <a href="#">Sourcing & Ingredients</a>
+          <a href="#">Packaging philosophy</a>
+          <a href="#">Customer reviews</a>
+          <a href="#">The Newest List</a>
+          
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer_item">
+          <h4>Contact Us</h4>
+          <a href="#">Our History</a>
+          <a href="#">Sourcing & Ingredients</a>
+          <a href="#">Packaging philosophy</a>
+          <a href="#">Customer reviews</a>
+          <a href="#">The Newest List</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer part end here-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
